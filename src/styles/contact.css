@@ -1,0 +1,36 @@
+.Contact-per {
+    background: linear-gradient(rgb(0, 13, 107, 0.7), rgb(0, 13, 107, 0.7)), url("../assets/image/blog/img_07.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.Contact-per .Contact-item,
+.contact {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+@media all and (max-width:1100px) {
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact .contact-inp {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact .contact-inp .contant_cont-1 {
+        width: 100%;
+        padding: 0px 10px
+    }
+
+    .contact .contact-inp .contant_cont-2 {
+        text-align: center;
+    }
+}

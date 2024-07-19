@@ -1,0 +1,97 @@
+.title-price .title {
+    color: var(--bg-background);
+}
+
+#cars-items .cars-item {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+.btn-offers .btn_all {
+    padding: 0px;
+    border: 0px;
+}
+
+#cars-items .cars-item .car-2 {
+    margin: 0px 20px;
+}
+
+.btn-offers .btn-rent {
+    background: var(--bg-background);
+    border-radius: 0px;
+    display: inherit;
+    border: 1px solid var(--bg-background);
+
+}
+
+.btn-offers .btn-rent a {
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.btn-offers .btn-rent a:hover {
+    color: var(--bg-background);
+
+}
+
+.btn-offers .btn-rent:hover {
+    background: white;
+
+
+}
+
+.btn-offers .btn-details {
+    background: var(--color-text-02);
+    border-radius: 0px;
+    display: inherit;
+
+}
+
+.btn-offers .btn-details a {
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    border: 1px solid var(--color-text-02);
+}
+
+.btn-offers .btn-details a:hover {
+    color: var(--color-text-02);
+}
+
+.btn-offers .btn-details:hover {
+    background: white;
+}
+
+/* .info .mod i {
+    color: var(--color-text-02);
+} */
+@media all and (max-width:1100px) {
+    #cars-items .cars-item {
+        width: 100%;
+    }
+
+
+
+    .cars-tm {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:924px) {
+    #cars-items .cars-item {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width:768px) {
+    #cars-items .cars-item {
+        width: 100px;
+        display: contents;
+    }
+
+    #cars-items .cars-item .car-2 {
+        margin: 0px;
+    }
+}

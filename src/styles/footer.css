@@ -1,0 +1,150 @@
+footer {
+    width: 100%;
+    background: var(--bg-background);
+    color: white;
+}
+
+footer .footer_item {
+    width: 1100px;
+    margin: 0px auto;
+    column-gap: 15px;
+    padding: 25px 0px 0px 0px;
+}
+
+.item_pra p {
+    display: flex;
+    align-items: center;
+}
+
+.item_pra p i {
+    font-size: 2.5rem;
+    margin-right: 15px;
+}
+
+.item_pra p span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.item_1 p {
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.item_2 ul,
+.item_3 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.item_2 ul li a,
+.item_3 ul li {
+    margin: 15px 0px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.item_2 ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.item_2 ul li a:hover,
+.item_3 ul li:hover,
+.item_4 p span:hover {
+    color: var(--color-hover);
+}
+
+.item_4 p span {
+    font-size: 0.8rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.item_4 form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.item_4 form input {
+    background: var(--bg-background-dk);
+    border-radius: 14px 0px 0px 14px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 4px 10px;
+}
+
+.item_4 form i {
+    background: var(--bg-background-dk);
+    padding: 8px 15px;
+    border-radius: 0px 14px 14px 0px;
+    cursor: pointer;
+}
+
+.item_4 form i:hover {
+    color: var(--color-hover);
+}
+
+footer .footer_item hr {
+    margin: 10px;
+    border: 2px solid var(--bg-background-dk);
+}
+
+.footer_bottom {
+    padding: 10px;
+}
+
+.footer_bottom p {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 100;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+@media all and (max-width:1100px) {
+    footer .footer_item {
+        width: 100%;
+    }
+
+    footer .footer_item hr {
+        margin: 10px 0px;
+    }
+}
+
+@media all and (max-width:924px) {
+    footer .footer_item {
+        width: 100%;
+    }
+
+    footer .footer_item .item_1 {
+        display: none;
+    }
+
+}
+
+@media all and (max-width:768px) {
+    footer .footer_item {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .footer_item hr {
+        margin: 10px 0px;
+    }
+
+    footer .footer_item .item_1 {
+        display: none;
+    }
+
+    .item_4 form {
+        justify-content: center;
+    }
+}

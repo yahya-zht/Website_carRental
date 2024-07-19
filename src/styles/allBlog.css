@@ -1,0 +1,25 @@
+.Blog-center {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+@media all and (max-width:1100px) {
+
+    .Blog-center,
+    .Blog-center .AllBlog {
+        width: 100%;
+    }
+
+    .Blog-center .Blog-ALL .AllBlog {
+        padding: 0px;
+    }
+
+    .Blog-ALL {
+        width: 100%;
+    }
+
+    .Blog-center {
+        display: flex;
+        justify-content: center;
+    }
+}

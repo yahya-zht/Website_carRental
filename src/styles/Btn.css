@@ -1,0 +1,20 @@
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 2px solid var(--bg-background);
+    outline: none;
+    background-color: var(--bg-background);
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#scrollToTopBtn:hover {
+    background-color: white;
+    color: var(--bg-background);
+}

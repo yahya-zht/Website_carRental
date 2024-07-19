@@ -1,0 +1,51 @@
+#about_items {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+.text-welcome {
+    color: var(--bg-background);
+}
+
+.about_item-02 img {
+    width: 100%;
+}
+
+/* .text-check i {
+    color: var(--color-hover);
+} */
+@media all and (max-width:1100px) {
+    #about_items {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .align-items-center {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width:924px) {
+    #about_items {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+}
+
+@media all and (max-width:768px) {
+    #about_items {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    #about_items .about-item-01 {
+        width: 100%;
+
+    }
+
+
+}

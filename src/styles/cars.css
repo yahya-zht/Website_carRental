@@ -1,0 +1,28 @@
+.Cars-per {
+    background: linear-gradient(rgb(0, 13, 107, 0.7), rgb(0, 13, 107, 0.7)), url("../assets/image/blog/img_04.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.Cars-per .Cars-item,
+.Cars-center_container,
+.members {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+@media all and (max-width:1100px) {
+
+    .members .members-item_2,
+    .members {
+        width: 100%;
+    }
+
+    .Cars-center_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

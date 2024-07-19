@@ -1,0 +1,24 @@
+.Blog-item {
+    width: 1100px;
+    margin: 0px auto;
+}
+
+@media all and (max-width:1100px) {
+    .Blog-item {
+        width: 100%;
+    }
+
+    .Blog-item .Details-blog {
+        width: 100%;
+        display: contents;
+    }
+
+    /* .Blog-item .Details-blog .blog-01 {
+        margin: 0px;
+        padding: 0px;
+    } */
+}
+
+/* .Blog-item .title-img_blog {
+
+} */

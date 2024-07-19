@@ -1,0 +1,97 @@
+#fcc {
+    width: 1100px;
+    margin: 0px auto;
+    position: relative;
+}
+
+#fcc .position-form {
+    position: absolute;
+    height: 200px;
+    top: -100px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.find-car_left {
+    background: linear-gradient(#ffca2c8f, #ffca2c8f), url("../assets/image/car_04.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.find-car_left p {
+    color: var(--bg-background);
+}
+
+.btn-find-car {
+    width: 100%;
+}
+
+form .input-form::placeholder {
+    color: var(--bg-background)
+}
+
+form .input-form {
+    color: var(--bg-background);
+}
+
+@media all and (max-width: 1100px) {
+    #fcc {
+        width: 800px;
+    }
+}
+
+@media all and (max-width: 890px) {
+    #fcc {
+        width: 700px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #fcc {
+        width: 500px;
+    }
+
+    #fcc .position-form {
+        height: 240px;
+    }
+}
+
+/* @media all and (max-width: 624px) {
+    #fcc {
+        width: 500px;
+    }
+
+    #fcc .position-form {
+        height: 240px;
+    }
+
+} */
+
+@media all and (max-width: 768px) {
+    #fcc {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #fcc .position-form {
+        width: 350px;
+        height: 340px;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .find-car_left {
+        height: 120px;
+    }
+
+    .align-items-center {
+        width: 120px;
+    }
+
+    .hero_slider-section .form-col {
+        width: auto;
+    }
+}
+
+@media all and (max-width: 400px) {}

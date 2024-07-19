@@ -1,0 +1,13 @@
+.hero_slider-section {
+    margin-bottom: 150px;
+}
+
+
+
+@media all and (max-width: 768px) {
+    .hero_slider-section {
+        margin-bottom: 260px;
+    }
+
+
+}

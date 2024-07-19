@@ -1,0 +1,22 @@
+:root {
+    --bg-background: #151b8d;
+    --bg-background-dk: #151b54;
+    --color-hover: rgb(219, 190, 0);
+    --color-text-02: #FFC107
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.All {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

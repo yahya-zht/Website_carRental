@@ -1,0 +1,26 @@
+@media all and (max-width:1100px) {
+    .details-mob {
+        flex-direction: column;
+    }
+
+    .details-mob div {
+        width: 100%;
+    }
+
+    .detailsForm {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailsForm div {
+        width: 100%;
+    }
+
+    .details-mob .title-price {
+        margin: 0px;
+    }
+
+    .members .car-item {
+        margin: 20px;
+    }
+}
